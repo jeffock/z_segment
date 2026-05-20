@@ -1,0 +1,7 @@
+# ninja log v7
+48	542	1779255690528614100	build.ninja	d771137de3efd5f2
+48	542	1779255690483210100	/mnt/c/users/jeffo/coding/organoid_z_segmentation/build/cmake_install.cmake	d771137de3efd5f2
+62	672	1779255600220706500	CMakeFiles/my_app.dir/src/main.cpp.o	1b4daec5d5be724c
+737	1018	1779255600896840300	my_app	b44dfa6789af7180
+63	628	1779255698477811000	CMakeFiles/z_segment.dir/src/main.cpp.o	b3ae2418ae34c291
+638	875	1779255699048632200	z_segment	4af45e153feb5a9
