@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/c/users/jeffo/coding/organoid_z_segmentation/build/cmake_install.cmake"
+		"C:/Users/jeffo/coding/organoid_z_segmentation/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -11,10 +11,11 @@ add_executable(z_segment
     src/main.cpp
 )
 
-target_link_libraries(z_segment PRIVATE
-    ${OpenCV_LIBS}
-)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+target_link_libraries(z_segment ${OpenCV_LIBS})
 
 target_include_directories(z_segment PRIVATE
+    ${OpenCV_INCLUDE_DIRS}
     ${CMAKE_SOURCE_DIR}/include
 )

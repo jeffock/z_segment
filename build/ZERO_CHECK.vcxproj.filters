@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jeffo\coding\organoid_z_segmentation\build\CMakeFiles\5c0cb7e588068c3fca6514ae84f1437c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{09B45AA5-157B-33EC-921A-4592E6FB5E77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

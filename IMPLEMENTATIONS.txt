@@ -1,0 +1,7 @@
+Raw z-stack slice
+
+Per-slice instance segmentation (colored instances)
+
+3D volumetric render of the segmented stack
+
+Quantitative metrics (organoid count, volume, morphology per instance)

@@ -1,14 +1,29 @@
 // MAINLOOP
 // Jeffrey Ock
 // 05/20/26
+// DATASET:
+// https://www.kaggle.com/datasets/burakkahveci/brain-organoids-segmentation-dataset
+
+// TODO
+// - impl view_zstack.h
 
 
 //---------- HEADERS ----------//
 #include "view_zstack.h"
 #include <iostream>
+#include <string>
+
+// FILE PATHS
+std::string img_path = "C:/Users/jeffo/Coding/organoid_z_segmentation/dataset/Segmentation/BO-WoAugmentation/img";
+std::string seg_path = "C:/Users/jeffo/Coding/organoid_z_segmentation/dataset/Segmentation/BO-WoAugmentation/seg";
 
 int main()
 {
-	std::cout << "TEST" << std::endl;
+	// load
+	ZStackCollection collection = load_zstacks(img_path);
+
+	// view first stack
+	view_zstack(collection, 5);
+
 	return 0;
 }

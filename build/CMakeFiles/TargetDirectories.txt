@@ -1,3 +1,3 @@
-/mnt/c/users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/z_segment.dir
-/mnt/c/users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/edit_cache.dir
-/mnt/c/users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/rebuild_cache.dir
+C:/Users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/z_segment.dir
+C:/Users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jeffo/coding/organoid_z_segmentation/build/CMakeFiles/ZERO_CHECK.dir
