@@ -5,3 +5,6 @@ Per-slice instance segmentation (colored instances)
 3D volumetric render of the segmented stack
 
 Quantitative metrics (organoid count, volume, morphology per instance)
+
+TODO:
+- z stack single functionality is weird

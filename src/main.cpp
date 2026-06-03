@@ -16,14 +16,17 @@
 // FILE PATHS
 std::string img_path = "C:/Users/jeffo/Coding/organoid_z_segmentation/dataset/Segmentation/BO-WoAugmentation/img";
 std::string seg_path = "C:/Users/jeffo/Coding/organoid_z_segmentation/dataset/Segmentation/BO-WoAugmentation/seg";
+std::string fullstack_path = "C:/Users/jeffo/Coding/organoid_z_segmentation/dataset/fullstacks";
 
 int main()
 {
 	// load
-	ZStackCollection collection = load_zstacks(img_path);
-
+	//ZStackCollection collection = load_zstacks(img_path);
 	// view first stack
-	view_zstack(collection, 5);
+	//view_zstack(collection, 5);
+
+	ZStackSingleCollection collection = load_zstacks_single(fullstack_path);
+	view_zstack_single(collection, 2);
 
 	return 0;
 }
